@@ -10,22 +10,15 @@
       <h1>Comp 484</h1>
       <h2>Structuring Pages</h2>
       <nav role="navigation">
-        <p>
-          <a href="index.html" title="Introduction to HTML"
-            >Introduction to HTML</a
-          >
-        </p>
-        <p><a href="syntax.html" title="HTML syntax">HTML syntax</a></p>
-        <p>
-          <a href="structure.html" title="Structuring pages"
-            >Structuring pages</a
-          >
-        </p>
-        <p><a href="links.html" title="Creating links">Creating links</a></p>
-        <p>
-          <a href="reference.html" title="HTML Reference">HTML reference</a>
-        </p>
-        <p><a href="next.html" title="Next steps">Next steps</a></p>
+        <ul>
+        <li><a href="index.html" title="Introduction to HTML">Introduction to HTML</a></li>
+        <li><a href="syntax.html" title="HTML syntax">HTML syntax</a></li>
+        <li><a href="structure.html" title="Structuring pages">Structuring pages</a></li>
+        <li><a href="links.html" title="Creating links">Creating links</a></li>
+        <li><a href="reference.html" title="HTML Reference">HTML reference</a></li>
+        <li><a href="next.html" title="Next steps">Next steps</a></li>
+        </ul>
+        <!-- All the links should be in an unordered list-->
       </nav>
     </header>
     <main role="main">
@@ -40,10 +33,7 @@
             easier to index and search, and makes it easier to repurpose.
             Remember that there are a lot of different devices, robots, and
             other user agents that will be reading your code.
-            <em
-              >Without a consistent, semantic structure your site will be less
-              effective.</em
-            >
+            <em>Without a consistent, semantic structure your site will be less effective.</em>
           </p>
         </header>
         <section>
@@ -60,54 +50,21 @@
           <p>
             In previous versions of HTML creating new sections of content was
             done almost exclusively through the use of
-            <a
-              href="http://www.w3.org/TR/html51/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements"
-              title="heading elements"
-              ><b>heading</b></a
-            >
+            <a href="http://www.w3.org/TR/html51/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements" title="heading elements"><b>heading</b></a>
             tags, with <b>divs</b> being used to group areas of content
             together. <b>Class</b> or <b>ID</b> attributes would allow designers
             to attach more semantic meaning to the groups, although this meant
             little to most user agents. In HTML5 new sectioning and semantic
             elements were introduced to help represent commonly used sections
             and create more consistent page structures. Tags like the
-            <a
-              href="http://www.w3.org/TR/html51/sections.html#the-aside-element"
-              title="aside element"
-              ><b>aside</b></a
-            >,
-            <a
-              href="http://www.w3.org/TR/html51/sections.html#the-article-element"
-              title="article element"
-              ><b>article</b></a
-            >,
-            <a
-              href="http://www.w3.org/TR/html51/sections.html#the-footer-element"
-              title="footer element"
-              ><b>footer</b></a
-            >,
-            <a
-              href="http://www.w3.org/TR/html51/sections.html#the-header-element"
-              title="header element"
-              ><b>header</b></a
-            >,
-            <a
-              href="http://www.w3.org/TR/html51/grouping-content.html#the-main-element"
-              title="main element"
-              ><b>main</b></a
-            >,
-            <a
-              href="http://www.w3.org/TR/html51/sections.html#the-nav-element"
-              title="nav element"
-              ><b>nav</b></a
-            >, and
-            <a
-              href="http://www.w3.org/TR/html51/sections.html#the-section-element"
-              title="section element"
-              ><b>section</b></a
-            >
-            allow authors to identify common page regions and convey more
-            semantic meaning.
+            <a href="http://www.w3.org/TR/html51/sections.html#the-aside-element" title="aside element"><b>aside</b></a>,
+            <a href="http://www.w3.org/TR/html51/sections.html#the-article-element" title="article element"><b>article</b></a>,
+            <a href="http://www.w3.org/TR/html51/sections.html#the-footer-element" title="footer element"><b>footer</b></a>,
+            <a href="http://www.w3.org/TR/html51/sections.html#the-header-element" title="header element"><b>header</b></a>,
+            <a href="http://www.w3.org/TR/html51/grouping-content.html#the-main-element" title="main element"><b>main</b></a>,
+            <a href="http://www.w3.org/TR/html51/sections.html#the-nav-element" title="nav element"><b>nav</b></a>, and
+            <a href="http://www.w3.org/TR/html51/sections.html#the-section-element" title="section element"><b>section</b></a>
+            allow authors to identify common page regions and convey more semantic meaning.
           </p>
           <p>
             Although some of these elements are very specific, in many cases
